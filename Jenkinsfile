@@ -3,6 +3,6 @@ node{
         git "https://github.com/ofirt/project1.git"
         }
   stage("run myapp"){
-      python myapp.py
+      bat "python myapp.py"
        }
   }
